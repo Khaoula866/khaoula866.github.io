@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: sans-serif;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/p2.jpeg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.hero-box {
+  width: 370px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  box-shadow: 0 0 15px 1px #87ceeb;
+  border-radius: 30px;
+}
+.button-box:hover {
+  box-shadow: 0 0 20px 4px #4682b4;
+}
+.toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 600;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+#btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: #4682b4;
+  border-radius: 30px;
+  transition: 0.5s;
+}
+.social-icons {
+  margin: 30px auto;
+  text-align: center;
+}
+.social-icons img:hover {
+  box-shadow: 0 0 20px 4px #4682b4;
+}
+.social-icons img {
+  width: 30px;
+  margin: 0 12px;
+  /*box-shadow: 0 0 20px 0 #7f7f7f3d;*/
+  cursor: pointer;
+  border-radius: 50%;
+}
+.input-group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  transition: 0.5s;
+}
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  outline: none;
+  background: transparent;
+}
+.submit-btn {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  background: #4682b4;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+.submit-btn:hover {
+  box-shadow: 0 0 20px 4px #4682b4;
+}
+.check-box {
+  margin: 30px 10px 30px 0;
+}
+span {
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+  position: absolute;
+}
+#Login1 {
+  left: 50px;
+}
+#Register {
+  left: 450px;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px 50px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header .H-top {
+  position: relative;
+  display: flex;
+  top: 10px;
+}
+
+header .H-top li a:hover {
+  color: rgb(10, 186, 255);
+}
+header #logo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: "Sansita Swashed", sans-serif;
+}
+
+header #logo span {
+  color: rgb(10, 186, 255);
+}

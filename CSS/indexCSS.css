@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-weight: 300;
+}
+
+.Show {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/OI3.jpg");
+  background-size: cover;
+}
+
+.Show .H-contenu {
+  max-width: 900px;
+  text-align: center;
+}
+.Show .H-contenu h1 {
+  font-size: 50px;
+  color: white;
+}
+.Show .H-contenu p {
+  font-size: 46px;
+  color: white;
+}
+
+.btn {
+  font-size: 18px;
+  color: #ffffff;
+  background: rgb(10, 186, 255);
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+  border-radius: 20px;
+}
+.btn:hover {
+  letter-spacing: 3px;
+  background: #ff0157;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 6px 50px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  flex-wrap: wrap;
+}
+
+header.ch1 {
+  background: #fff;
+  padding: 6px 50px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+header.ch1 #logo {
+  color: black;
+}
+header.ch1 .H-top li a {
+  color: black;
+}
+header .H-top li a:hover {
+  color: rgb(10, 186, 255);
+}
+header #logo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: "Sansita Swashed", sans-serif;
+}
+
+header #logo span {
+  color: rgb(10, 186, 255);
+}
+
+header .H-top {
+  position: relative;
+  display: flex;
+  top: 10px;
+}
+
+header .H-top li {
+  list-style: none;
+  margin-left: 15px;
+}
+header .H-top li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+
+.LGras {
+  color: #ffffff;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+  justify-content: center;
+  padding: 30px 10px 0px 0px;
+}
+.d1 {
+  padding: 30px 30px 30px 30px;
+}
+.LGras span {
+  color: rgb(10, 186, 255);
+  font-weight: 700;
+}
+#P1 {
+  color: #ffffff;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  font-size: 26px;
+  font-weight: 300;
+}
+
+div .F-prix {
+  text-decoration: none;
+  text-align: right;
+  padding-left: 26%;
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(10, 186, 255);
+}
+
+div .decoration {
+  text-decoration: none;
+}
+div .cadr2:hover {
+  box-shadow: 0 0 5px 2px #06aeb4;
+}
+.card-body h5 {
+  color: #263274;
+}
+
+header .menu {
+  background-color: transparent;
+  border: 0;
+  color: #ffffff;
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+header .menu:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 662px) {
+  header .H-top {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+  header .H-top.SH {
+    display: flex;
+  }
+  header .menu {
+    display: block;
+  }
+  header.ch1 .menu {
+    color: #000000;
+  }
+}
+
+#logoF {
+  color: black;
+  font-weight: 700;
+  font-size: 2em;
+  text-decoration: none;
+  text-align: center;
+  padding-left: 480px;
+  padding-top: 40px;
+  font-family: "Sansita Swashed", sans-serif;
+}
+#logoF span {
+  color: rgb(10, 186, 255);
+}
+.Titre-F a {
+  color: rgb(10, 186, 255);
+  font-weight: 700;
+  text-decoration: none;
+  font-family: "Sansita Swashed", sans-serif;
+  text-transform: capitalize;
+}
+h6 span {
+  padding-left: 18px;
+}
+
+.social {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.social ul li {
+  display: inline;
+
+  padding: 20px 12px;
+  list-style: none;
+}
+.social ul li a {
+  font-weight: 700;
+  text-decoration: none;
+}
+footer {
+  height: auto;
+  background-color: #343a40;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+footer h5 {
+  color: white;
+  font-family: "Sansita Swashed", sans-serif;
+  padding-left: 20px;
+  text-transform: capitalize;
+
+  display: inline-block;
+}
